@@ -1,0 +1,32 @@
+*** Creating Trace Output File '.\Objects\project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objects\main.o"'
+### List of Objects: adding '".\objects\stm32f10x_it.o"'
+### List of Objects: adding '".\objects\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\objects\system_stm32f10x.o"'
+### List of Objects: adding '".\objects\core_cm3.o"'
+### List of Objects: adding '".\objects\misc.o"'
+### List of Objects: adding '".\objects\stm32f10x_gpio.o"'
+### List of Objects: adding '".\objects\stm32f10x_rcc.o"'
+### List of Objects: adding '".\objects\stm32f10x_adc.o"'
+### List of Objects: adding '".\objects\stm32f10x_dma.o"'
+### List of Objects: adding '".\objects\stm32f10x_sdio.o"'
+### List of Objects: adding '".\objects\stm32f10x_tim.o"'
+### List of Objects: adding '".\objects\stm32f10x_usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\objects\main.o" ".\objects\stm32f10x_it.o" ".\objects\startup_stm32f10x_md.o" ".\objects\system_stm32f10x.o" ".\objects\core_cm3.o" ".\objects\misc.o" ".\objects\stm32f10x_gpio.o" ".\objects\stm32f10x_rcc.o" ".\objects\stm32f10x_adc.o" ".\objects\stm32f10x_dma.o" ".\objects\stm32f10x_sdio.o" ".\objects\stm32f10x_tim.o" ".\objects\stm32f10x_usart.o" 
+--strict --scatter ".\Objects\project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\project.map" -o .\Objects\project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Objects\project.axf'
+### ADS-LD Command File: '.\Objects\project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Objects\project.lnp', Handle=0x000005BC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Objects\project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
