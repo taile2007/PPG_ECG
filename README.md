@@ -1,1 +1,1 @@
-# PPG_ECG
+# Firmware for simultanously collecting PPG and ECG signals
